@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Operaciones</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+
+        <form action="MiServlet" method="post">
+
+            <div class="container">
+                <h1 id="titulo"> Operaciones </h1>
+
+                <div class="inputbox">
+                    <input type="number" name="numero1" placeholder="Digite primer numero" required>
+                </div>
+                <div class="inputbox">
+                    <input type="number" name="numero2" placeholder="Digite segundo numero" required>
+                </div>
+
+                <label>Que operacion desea hacer?</label><br>
+                <select name="operacion">
+                    <option>Sumar (+)</option>
+                    <option>Restar (-)</option>
+                    <option>Multiplicar (*)</option>
+                    <option>Dividir (/)</option>
+                </select>
+
+                <input type="submit" value="Resolver operacion"/>
+            </div>
+        </form>
+
+    </body>
+</html>
