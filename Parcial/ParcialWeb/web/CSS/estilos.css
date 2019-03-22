@@ -1,0 +1,68 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+
+    background-image: url("../IMG/back2.jpg");
+    background-size: cover;
+
+}
+
+h1{
+    color: #fff;
+}
+
+.formRegistro {
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: rgba(255,255,255,.7);
+    padding: 20px;
+    height: 450px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+
+.formTabla {
+    float: right;
+    width: 65%;
+    height: 400px;
+    background-color: rgba(255,255,255,.9);
+    position: relative;
+    height: 80%;
+}
+
+#formMod{
+    background-color: rgba(255,255,255,.7);
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+
+label, input{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 8px 10px;
+    outline: none;
+}
+
+
+.form-control{
+    width: 80%;
+}
+
+#boton{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+table{
+    width: 100%;
+}

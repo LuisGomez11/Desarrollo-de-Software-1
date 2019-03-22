@@ -1,0 +1,56 @@
+
+package Clases;
+
+public class Usuario {
+
+    private int id;
+    private String name;
+    private String lastName;
+    private String birthDay;
+
+    public Usuario() {
+    }
+
+    public Usuario(int id, String name, String lastName, String birthDay) {
+        this.id = id;
+        this.name = name;
+        this.lastName = lastName;
+        this.birthDay = birthDay;
+    }
+
+    
+    
+    
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getBirthDay() {
+        return birthDay;
+    }
+
+    public void setBirthDay(String birthDay) {
+        this.birthDay = birthDay;
+    }
+    
+}

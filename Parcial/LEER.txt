@@ -1,0 +1,15 @@
+Para que funcione:
+
+Crear una base de datos en mysql de nombre "Parcial"
+create database Parcial;
+
+Crear una tabla en la base de datos de nombre "registros" con 4 columnnas
+1. id
+2. name
+3. lastname
+4. birthday
+create table registros (id int primary key, name varchar(50) not null, lastname
+	varchar(50) not null, birthday varchar(20) not null);
+
+
+
