@@ -1,7 +1,7 @@
 <%-- 
     Document   : eliminar
     Created on : 22/03/2019, 01:04:50 PM
-    Author     : Sammy Guergachi <sguergachi at gmail.com>
+    Author     : Luis Alberto Gomez
 --%>
 
 <%@page import="Config.Opciones"%>

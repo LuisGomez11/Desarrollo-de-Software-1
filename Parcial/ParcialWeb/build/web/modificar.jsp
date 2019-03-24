@@ -1,7 +1,7 @@
 <%-- 
     Document   : modificar
     Created on : 22/03/2019, 07:23:33 AM
-    Author     : Sammy Guergachi <sguergachi at gmail.com>
+    Author     : Luis Alberto Gomez
 --%>
 
 <%@page import="java.sql.ResultSet"%>

@@ -6,7 +6,7 @@
 <%-- 
     Document   : index
     Created on : 21/03/2019, 11:50:04 PM
-    Author     : Sammy Guergachi <sguergachi at gmail.com>
+    Author     : Luis Alberto Gomez
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
